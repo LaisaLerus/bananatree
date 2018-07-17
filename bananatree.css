@@ -1,31 +1,67 @@
 
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+
+
 body{
+	width: 620px;
+	margin: auto;
 	font-family: "helvetica", sans-serif;
 
 }
 
 .h1{
+	padding-top:50px;
+	padding-bottom: 40px;
 	font-size: 48px;
     font-variant: small-caps;
 }
 
 .h2{
+	padding-bottom: 20px;
 	font-family: "Gaegu", sans-serif;
 	font-size: 28px;
+	color: grey;
+}
+header img{
+	float: left;
+}
 
+#navigation{
+	margin: auto;
+	padding: auto;
+}
+
+nav {
+	line-height: 0.5;
+	height: 40px;
+	margin: auto;
+	background-color: black;
+}
+
+nav li{ 
+	color: white;
+	padding:20px;
+	display: inline-block;
+}
+
+nav a:hover{
+	color: lightgrey;
+}
+
+nav a{
+	color: grey;
 }
 
 
-nav{ text-align: center;
-display: inline;
-}
-
-.nav navbar-nav li{
-	display: inline;
-}
-
-main{
-	list-style-type: asterisks;
+main {
+	width: 600px;
+	margin: auto;
+	margin-top: 10px;
 }
 
 footer{
@@ -46,4 +82,10 @@ footer{
 
 .textcenter{
 text-align: center;
+}
+
+.container div > h3 {
+	font-family: "Gaegu", sans-serif;
+	font-size: 18px;
+
 }
